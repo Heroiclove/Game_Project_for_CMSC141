@@ -39,7 +39,7 @@ Bullet bullet;
 Rocket rocket;
 Rocket small_rocket;
 Dragon dragonboss;
-float starwar_score = 49;
+float starwar_score = 0;
 int monsters_amount=10, monsters_amount1=30;
 int starwar_stage = 0;
 //@todo plane game
@@ -52,7 +52,7 @@ FCoin fcoin;
 F_jet f1, f2;
 color blue = color (0, 0, 255);
 
-int stage = 1; // 0. interface 1. starwar 2. planegame 3. flappy bird 4. ballgame
+int stage = 0; // 0. interface 1. starwar 2. planegame 3. flappy bird 4. ballgame
 // Flappy Bird
 PImage bird, front, back, wall;
 int game, birdscore, highscore, x, y, steep; // game for front and back; x,y, to draw and steep to determine  the bird position; 
